@@ -1,0 +1,28 @@
+@import "./variables.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100%;
+  width: 100vw;
+  background: $background-color;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  height: 100vh;
+  a {
+    color: $link-color;
+    background: black;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    transition: 0.3s all ease;
+    &:hover {
+      background: rgba(0, 0, 0, 0.137);
+    }
+  }
+}
